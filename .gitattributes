@@ -1,0 +1,2 @@
+corpus/bebpo.wav filter=lfs diff=lfs merge=lfs -text
+corpus/lisokot_fog.wav filter=lfs diff=lfs merge=lfs -text
