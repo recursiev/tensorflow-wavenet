@@ -8,7 +8,7 @@ import librosa
 import numpy as np
 import tensorflow as tf
 
-FILE_PATTERN = r'p([0-9]+)_([0-9]+)\.wav'
+FILE_PATTERN = r'([0-9]{1,2})-([0-9]+)-([A-Z]{1})-([0-9]+)\.wav'
 
 
 def get_category_cardinality(files):
